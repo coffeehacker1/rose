@@ -6,9 +6,6 @@ var mirWrapperServices = require('../lib/vendor/mir/wrapperServices.js');
 
 /* ---------------- */
 
-/* node libraries */
-const axios         = require('axios');
-
 var express         = require('express'),
     app             = express(),
     PORT            = process.env.PORT || 2000,
